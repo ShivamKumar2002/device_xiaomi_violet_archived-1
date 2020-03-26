@@ -18,11 +18,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-IS_PHONE:= true
 
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
-# Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := du_violet
 PRODUCT_DEVICE := violet
