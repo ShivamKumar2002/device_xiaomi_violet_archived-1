@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_violet.mk
+    $(LOCAL_DIR)/du_violet.mk
