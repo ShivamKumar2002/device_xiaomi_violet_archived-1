@@ -16,6 +16,8 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common CorvusOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_NANOGAPPS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 IS_PHONE:= true
