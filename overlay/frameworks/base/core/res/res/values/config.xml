@@ -382,7 +382,8 @@
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
-    <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
+
+     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
 
          When false, autosuspend_disable() will be called before the display is turned on
@@ -544,3 +545,4 @@
     <!-- Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 </resources>
+
