@@ -22,12 +22,12 @@ TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 IS_PHONE:= true
 
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit PixelGApps
 $(call inherit-product-if-exists, vendor/gapps/config.mk)
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := revengeos_violet
+PRODUCT_NAME := lineage_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
